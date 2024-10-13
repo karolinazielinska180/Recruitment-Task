@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prime Numbers</title>
+    <link rel="stylesheet" href="/listCSS.css">
+</head>
+<body>
+<div class="container">
+    <p>Prime numbers:</p>
+    <ul class="pNumbers">
+        <li th:each="primeNumber:${primeNumbers}" th:text="${primeNumber}"></li>
+    </ul>
+</div>
+</body>
+</html>

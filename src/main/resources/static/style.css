@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-family:"Roboto Light",sans-serif ;
+}
+
+div form{
+    width: 100vw;
+    text-align: center;
+    display: block;
+    margin-top: 20px;
+
+}
+ form label{
+     display: inline-block;
+
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.btn {
+    border: 2px solid #333;
+    transition: 0.5s;
+    background-color: #555;
+    margin-left: 20px;
+    color:white;
+    padding: 10px;
+}
+
+.btn:hover {
+background-color: cornflowerblue;
+}
